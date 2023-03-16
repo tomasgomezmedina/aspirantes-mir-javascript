@@ -1,4 +1,7 @@
 function join(array = []) {
+    if (array.length === 0) {
+        return "''";
+    }
     let cadena = "";
     for (let i = 0; i < array.length; i++) {
         cadena += array[i]+" ";

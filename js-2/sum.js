@@ -1,4 +1,7 @@
-function sum(array=[]) {
+function sum(array = []) {
+    if (array.length === 0) {
+        return 0;
+    }
     let result = 0;
     for (let i of array) {// for of para iterar cada indice en el arreglo 
 
